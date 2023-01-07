@@ -1,0 +1,182 @@
+html,
+body {
+    height: 100%;
+}
+
+body {
+    background-image: url("background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.page-header{
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Passion One', cursive;
+    font-weight: bold;
+    font-size: 50px;
+    color: rgb(242, 247, 243);
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom: 60px;
+    margin-top: 20px;
+}
+.both-dates-choose{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding-bottom: 50px;
+}
+
+.stard-end-date-text{
+    margin-bottom: 0px;
+}
+
+.choose-start-date{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-family: 'Passion One', cursive;
+}
+
+.choose-end-date{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-family: 'Passion One', cursive;
+    display: grid;
+    justify-items: start;
+}
+
+.preset-text{
+    font-size: 20px;
+    font-family: 'Passion One', cursive;
+    color:white;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.presets-buttons{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-bottom: 40px;
+}
+
+.calculate-in-text{
+    font-size: 20px;
+    font-family: 'Passion One', cursive;
+    color:white;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    text-align: center;
+}
+
+.calculate-in-buttons{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-bottom: 80px;
+}
+
+.preset-week,
+.preset-month,
+.coint-in-days,
+.coint-in-hours,
+.coint-in-minutes,
+.coint-in-seconds{
+    background-color: rgb(255, 255, 255);
+    border: rgb(1, 1, 3);
+    border-style: solid;
+    border-width: 1.5px;
+    height: 35px;
+    width: 100px;
+    border-radius: 13px;
+    cursor:pointer;
+    transition: opacity 0.15s;
+    font-family: 'Passion One', cursive;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.preset-week:hover {
+    opacity: 0.7; }
+.preset-month:hover {
+    opacity: 0.7; 
+}
+.preset-week:hover{
+    opacity:0.7;
+}
+.preset-month:hover{
+    opacity:0.7;
+}
+
+.coint-in-days:hover{
+    opacity:0.7;
+}
+
+.coint-in-hours:hover{
+    opacity:0.7;
+}
+
+.coint-in-minutes:hover{
+    opacity:0.7;
+}
+
+.coint-in-seconds:hover{
+    opacity:0.7;
+}
+
+.calculate-and-result{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-bottom: 70px;
+}
+
+.calculate {
+    background-color: rgb(15, 97, 65);
+    border: rgb(1, 1, 3);
+    border-style: solid;
+    border-width: 1.5px;
+    height: 35px;
+    width: 100px;
+    border-radius: 13px;
+    cursor:pointer;
+    color: white;
+    transition: opacity 0.15s;
+    font-family: 'Passion One', cursive;
+    font-weight: bold;
+    font-size: 20px;
+    margin-right: 25px;
+}
+
+.calculate-button{
+    display: grid;
+    justify-items: end;
+}
+
+.calculation-result {
+    border: 1px solid white;
+    border-radius: 1px;
+    height: 30px;
+    width: 100px;
+    margin: 0px;
+    text-align: right;
+    font-size: 2.5rem;
+}
+
+.table{
+    font-family: 'Passion One', cursive;
+    font-weight: bold;
+    font-size: 15px; 
+    color: white;  
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+}
+
+table,th,td{
+    border: 1px solid white;
+    width: 300px;
+    height: 30px;
+}
